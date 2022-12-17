@@ -1,0 +1,1283 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>78/4/11</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 17 10:48:33 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1137 seconds (1137794 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.clickingDepartureDateBeforeArrival()'><b>clickingDepartureDateBeforeArrival</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li id=&quot;c61&quot;&gt; is not clickable at point (543,715) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1c702ec9-72f4-4133-99da-63787c07b6f1, clickElement {id=250b8fc5-daf1-4b11-9b6e-627dcd09bfaf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:42105, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21620, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42105/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1c702ec9-72f4-4133-99da-63787c07b6f1)] -&gt; css selector: #city_list_cont li]
+Session ID: 1c702ec9-72f4-4133-99da-63787c07b6f1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:170)
+	at Selenium.CroatiaDirect.AccommodationSearchTest.clickingDepartureDateBeforeArrival(AccommodationSearchTest.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1229775935", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1229775935'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li id=&quot;c61&quot;&gt; is not clickable at point (543,715) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1c702ec9-72f4-4133-99da-63787c07b6f1, clickElement {id=250b8fc5-daf1-4b11-9b6e-627dcd09bfaf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:42105, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21620, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42105/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1c702ec9-72f4-4133-99da-63787c07b6f1)] -&gt; css selector: #city_list_cont li]
+Session ID: 1c702ec9-72f4-4133-99da-63787c07b6f1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:170)
+	at Selenium.CroatiaDirect.AccommodationSearchTest.clickingDepartureDateBeforeArrival(AccommodationSearchTest.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>25</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage()'><b>removePropertyFromWishListUsingProfilePage</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace209593819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace209593819'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>35</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Seoski turizam</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li class=&quot;zagreb&quot;&gt; is not clickable at point (323,721) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7878f534-45b5-4436-95b9-86200dad85e3, clickElement {id=8647dd9b-5949-44e8-824e-9a3f04a05bc9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:9221, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31400, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9221/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7878f534-45b5-4436-95b9-86200dad85e3)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: 7878f534-45b5-4436-95b9-86200dad85e3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages(AccommodationSearchTest.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace917219968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace917219968'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li class=&quot;zagreb&quot;&gt; is not clickable at point (323,721) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7878f534-45b5-4436-95b9-86200dad85e3, clickElement {id=8647dd9b-5949-44e8-824e-9a3f04a05bc9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:9221, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31400, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9221/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7878f534-45b5-4436-95b9-86200dad85e3)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: 7878f534-45b5-4436-95b9-86200dad85e3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages(AccommodationSearchTest.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton()'><b>sendInquiryUsingUnitInquiryButton</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;arrival&quot; class=&quot;form-control datepick&quot; name=&quot;arrival&quot; type=&quot;text&quot;&gt; is not clickable at point (1135,713) because another element &lt;div class=&quot;clearfix&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a63a90d9-34c2-48f6-9c3e-84e79d313201, clickElement {id=2457e681-ec67-4392-9fb2-2575c1892713}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:40014, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17240, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:40014/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (a63a90d9-34c2-48f6-9c3e-84e79d313201)] -&gt; id: arrival]
+Session ID: a63a90d9-34c2-48f6-9c3e-84e79d313201
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.openArrivalCalendar(PropertyPage.java:226)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:231)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1526651394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1526651394'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;arrival&quot; class=&quot;form-control datepick&quot; name=&quot;arrival&quot; type=&quot;text&quot;&gt; is not clickable at point (1135,713) because another element &lt;div class=&quot;clearfix&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a63a90d9-34c2-48f6-9c3e-84e79d313201, clickElement {id=2457e681-ec67-4392-9fb2-2575c1892713}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:40014, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17240, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:40014/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (a63a90d9-34c2-48f6-9c3e-84e79d313201)] -&gt; id: arrival]
+Session ID: a63a90d9-34c2-48f6-9c3e-84e79d313201
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.openArrivalCalendar(PropertyPage.java:226)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:231)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>25</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=CHF, currency=CHF}</td>
+<td></td>
+<td>15</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kn, currency=HRK}</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, niže</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishList()'><b>removePropertyFromWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>23</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=SEK}</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Dubrovnik, Dubrovnik i okolica</td>
+<td></td>
+<td>42</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, Broju</td>
+<td></td>
+<td>7</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutEmail()'><b>sendInquiryWithoutEmail</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>50</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=ru.gif, currency=RUB, url=http://www.otdihhorvatija.ru/}</td>
+<td></td>
+<td>3</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=NOK}</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=NOK}</td>
+<td></td>
+<td>10</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=$, currency=USD}</td>
+<td></td>
+<td>51</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=fr.gif, currency=EUR, url=https://www.vacancescroatie.net/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=ro.gif, currency=RON, url=https://www.apartamentecroatia.com/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm()'><b>sendInquiryUsingForm</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>38</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutSelectingUnit()'><b>sendInquiryWithoutSelectingUnit</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>17</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoDatesEntered()'><b>searchNoDatesEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Vile</td>
+<td></td>
+<td>15</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=cs.gif, currency=CZK, url=https://www.chorvatskeubytovani.cz/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=£, currency=GBP}</td>
+<td></td>
+<td>29</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Zagreb, arrivalMonth=svi 2023, guests=12, departureMonth=svi 2023, departureDate=20, region=Zagreb i središnja Hrvatska, accomodationType=Apartmani, arrivalDate=5}</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=CHF, currency=CHF}</td>
+<td></td>
+<td>31</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, više</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Hvar Vrbanj, arrivalMonth=lip 2023, guests=5, departureMonth=lip 2023, departureDate=11, region=Otoci, accomodationType=Robinzonski turizam, arrivalDate=3}</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=DKK}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoGuestNumberEntered()'><b>searchNoGuestNumberEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutDepartureDate()'><b>sendInquiryWithoutDepartureDate</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>22</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=DKK}</td>
+<td></td>
+<td>38</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=pl.gif, currency=PLN, url=https://www.apartamentychorwacja.pl/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.addPropertyToWishList()'><b>addPropertyToWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>18</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Ft, currency=HUF}</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutNumberOfAdults()'><b>sendInquiryWithoutNumberOfAdults</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>26</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, niže</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=€, currency=EUR}</td>
+<td></td>
+<td>37</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.pastDatesDisabled()'><b>pastDatesDisabled</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>1</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=zł, currency=PLN}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=zł, currency=PLN}</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Fažana, arrivalMonth=srp 2023, guests=3, departureMonth=srp 2023, departureDate=13, region=Istra, accomodationType=Apartmani, arrivalDate=6}</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=LEI, currency=RON}</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Hvar cijeli otok, Hvar (cijeli otok)</td>
+<td></td>
+<td>28</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutLastName()'><b>sendInquiryWithoutLastName</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>28</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=RUB, currency=RUB}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Apartmani</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Kč, currency=CZK}</td>
+<td></td>
+<td>32</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=RUB, currency=RUB}</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, Broju</td>
+<td></td>
+<td>29</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, Ocjeni</td>
+<td></td>
+<td>10</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Šibenik, arrivalMonth=kol 2023, guests=4, departureMonth=ruj 2023, departureDate=7, region=Šibenik i okolica, accomodationType=Vile, arrivalDate=30}</td>
+<td></td>
+<td>32</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=£, currency=GBP}</td>
+<td></td>
+<td>20</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=de.gif, currency=EUR, url=https://www.direkt-kroatien.de/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removeAllPropertiesFromWishList()'><b>removeAllPropertiesFromWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>56</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Robinzonski turizam</td>
+<td></td>
+<td>10</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=sl.gif, currency=EUR, url=https://www.obmorju.si/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Brač, Brač Supetar</td>
+<td></td>
+<td>32</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutArrivalDate()'><b>sendInquiryWithoutArrivalDate</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>23</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Dubrovnik, arrivalMonth=lis 2023, guests=6, departureMonth=lis 2023, departureDate=8, region=Dubrovnik i okolica, accomodationType=Apartmani, arrivalDate=7}</td>
+<td></td>
+<td>35</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kn, currency=HRK}</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=SEK}</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=€, currency=EUR}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria()'><b>selectCurrencyAfterEnteringSearchCriteria</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=hu.gif, currency=HUF, url=https://www.horvatorszagapartmanok.net/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutFirstName()'><b>sendInquiryWithoutFirstName</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>31</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=it.gif, currency=EUR, url=https://www.alloggiocroazia.it/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.noMatchingAccomodationMessageDisplayed()'><b>noMatchingAccomodationMessageDisplayed</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, Ocjeni</td>
+<td></td>
+<td>45</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Plitvička jezera, arrivalMonth=pro 2023, guests=4, departureMonth=pro 2023, departureDate=4, region=Kvarner i gorje, accomodationType=Seoski turizam, arrivalDate=1}</td>
+<td></td>
+<td>27</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=$, currency=USD}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutInquiryTextFieldEntry()'><b>sendInquiryWithoutInquiryTextFieldEntry</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>22</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=LEI, currency=RON}</td>
+<td></td>
+<td>10</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=en.gif, currency=EUR, url=https://www.direct-croatia.com/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.verifySearchBarAndAccomodationTypeDropdown()'><b>verifySearchBarAndAccomodationTypeDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>49</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Ft, currency=HUF}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=es.gif, currency=EUR, url=https://www.alojamientocroacia.es/}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=nl.gif, currency=EUR, url=https://www.directkroatie.nl/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=da.gif, currency=EUR, url=https://www.kroatiendirekte.dk/}</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Kč, currency=CZK}</td>
+<td></td>
+<td>21</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, više</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@2631f68c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoDestinationEntered()'><b>searchNoDestinationEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@6ed3f258</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=SEK}</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li&gt; is not clickable at point (323,689) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f367ace9-59f7-45bb-b5c7-bddd0cdc51c1, clickElement {id=151b0a82-4399-46f9-953f-3a4dac9f1b07}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:14031, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33904, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:14031/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (f367ace9-59f7-45bb-b5c7-bddd0cdc51c1)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: f367ace9-59f7-45bb-b5c7-bddd0cdc51c1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency(CountryCurrencyTest.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1928991978", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1928991978'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li&gt; is not clickable at point (323,689) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f367ace9-59f7-45bb-b5c7-bddd0cdc51c1, clickElement {id=151b0a82-4399-46f9-953f-3a4dac9f1b07}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:14031, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33904, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:14031/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (f367ace9-59f7-45bb-b5c7-bddd0cdc51c1)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: f367ace9-59f7-45bb-b5c7-bddd0cdc51c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency(CountryCurrencyTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removeAllPropertiesFromWishList()'><b>removeAllPropertiesFromWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.WishlistTest.removeAllPropertiesFromWishList(WishlistTest.java:66)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735657816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735657816'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.WishlistTest.removeAllPropertiesFromWishList(WishlistTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>43</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton()'><b>sendInquiryUsingUnitInquiryButton</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:29)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace280448950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280448950'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kn, currency=HRK}</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li&gt; is not clickable at point (323,689) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [79631536-02ac-4724-bd15-76a1715f7275, clickElement {id=3319016f-298e-4514-86f1-e4a8586fc5e6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:10292, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17528, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10292/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (79631536-02ac-4724-bd15-76a1715f7275)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: 79631536-02ac-4724-bd15-76a1715f7275
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency(CountryCurrencyTest.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2076583253", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2076583253'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;li&gt; is not clickable at point (323,689) because another element &lt;p&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [79631536-02ac-4724-bd15-76a1715f7275, clickElement {id=3319016f-298e-4514-86f1-e4a8586fc5e6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:10292, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17528, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10292/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (79631536-02ac-4724-bd15-76a1715f7275)] -&gt; css selector: li[onclick*=&apos;showCityList&apos;]]
+Session ID: 79631536-02ac-4724-bd15-76a1715f7275
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at abstractcomponents.AbstractComponents.selectRegionAndCity(AbstractComponents.java:167)
+	at Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency(CountryCurrencyTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>1</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@6bca7e0d</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm()'><b>sendInquiryUsingForm</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: (//th[@class=&apos;month&apos;])[1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [27527c70-fe16-408e-a722-8683d638d4fa, findElement {using=xpath, value=(//th[@class=&apos;month&apos;])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:19907, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33692, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 27527c70-fe16-408e-a722-8683d638d4fa
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:232)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm(PropertyInquiriesTest.java:260)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1875694954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1875694954'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: (//th[@class=&apos;month&apos;])[1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [27527c70-fe16-408e-a722-8683d638d4fa, findElement {using=xpath, value=(//th[@class=&apos;month&apos;])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:19907, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33692, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 27527c70-fe16-408e-a722-8683d638d4fa
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:232)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm(PropertyInquiriesTest.java:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>30</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutArrivalDate()'><b>sendInquiryWithoutArrivalDate</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;select class=&quot;form-control pull-right guests&quot; name=&quot;adults&quot;&gt; is not clickable at point (1294,322) because another element &lt;i class=&quot;fa fa-chevron-right glyphicon glyphicon-chevron-right&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54f96083-8862-4210-9ef2-85c220666c86, clickElement {id=d6caa96a-bf57-4373-902e-5d62461ae6a8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:34454, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24192, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:34454/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (54f96083-8862-4210-9ef2-85c220666c86)] -&gt; xpath: (//*[@name=&apos;adults&apos;])[1]]
+Session ID: 54f96083-8862-4210-9ef2-85c220666c86
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.selectNumAdults(PropertyPage.java:295)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutArrivalDate(PropertyInquiriesTest.java:155)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1783635879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1783635879'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;select class=&quot;form-control pull-right guests&quot; name=&quot;adults&quot;&gt; is not clickable at point (1294,322) because another element &lt;i class=&quot;fa fa-chevron-right glyphicon glyphicon-chevron-right&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54f96083-8862-4210-9ef2-85c220666c86, clickElement {id=d6caa96a-bf57-4373-902e-5d62461ae6a8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:34454, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24192, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:34454/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (54f96083-8862-4210-9ef2-85c220666c86)] -&gt; xpath: (//*[@name=&apos;adults&apos;])[1]]
+Session ID: 54f96083-8862-4210-9ef2-85c220666c86
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.selectNumAdults(PropertyPage.java:295)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutArrivalDate(PropertyInquiriesTest.java:155)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>41</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm()'><b>sendInquiryUsingForm</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;arrival&quot; class=&quot;form-control datepick&quot; name=&quot;arrival&quot; type=&quot;text&quot;&gt; is not clickable at point (1135,713) because another element &lt;div class=&quot;clearfix&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ec692359-312a-42e2-b44b-449082073a92, clickElement {id=b9fce776-05c8-47d1-925b-9d27062e7e44}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:2822, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38264, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:2822/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (ec692359-312a-42e2-b44b-449082073a92)] -&gt; id: arrival]
+Session ID: ec692359-312a-42e2-b44b-449082073a92
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.openArrivalCalendar(PropertyPage.java:226)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:231)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm(PropertyInquiriesTest.java:260)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace397337506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace397337506'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;arrival&quot; class=&quot;form-control datepick&quot; name=&quot;arrival&quot; type=&quot;text&quot;&gt; is not clickable at point (1135,713) because another element &lt;div class=&quot;clearfix&quot;&gt; obscures it
+Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ec692359-312a-42e2-b44b-449082073a92, clickElement {id=b9fce776-05c8-47d1-925b-9d27062e7e44}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:2822, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38264, moz:profile: C:\Users\adnan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:2822/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (ec692359-312a-42e2-b44b-449082073a92)] -&gt; id: arrival]
+Session ID: ec692359-312a-42e2-b44b-449082073a92
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageobjects.PropertyPage.openArrivalCalendar(PropertyPage.java:226)
+	at pageobjects.PropertyPage.selectArrivalDate(PropertyPage.java:231)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm(PropertyInquiriesTest.java:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>31</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutInquiryTextFieldEntry()'><b>sendInquiryWithoutInquiryTextFieldEntry</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutInquiryTextFieldEntry(PropertyInquiriesTest.java:233)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670617765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670617765'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutInquiryTextFieldEntry(PropertyInquiriesTest.java:233)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>23</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.addPropertyToWishList()'><b>addPropertyToWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.WishlistTest.addPropertyToWishList(WishlistTest.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace143358293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace143358293'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.WishlistTest.addPropertyToWishList(WishlistTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>30</td>
+<td>Selenium.CroatiaDirect.WishlistTest@8c3619e</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton()'><b>sendInquiryUsingUnitInquiryButton</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:29)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1307992552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1307992552'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton(PropertyInquiriesTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>35</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutFirstName()'><b>sendInquiryWithoutFirstName</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutFirstName(PropertyInquiriesTest.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace894278450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace894278450'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutFirstName(PropertyInquiriesTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>18</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@8ad6665</td></tr>
+</table><p>
+</body>
+</html>

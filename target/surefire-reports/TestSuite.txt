@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 82, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 497.436 s <<< FAILURE! - in TestSuite
+removePropertyFromWishListUsingProfilePage(Selenium.CroatiaDirect.WishlistTest)  Time elapsed: 3.35 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:35)
+
+selectCurrencyAfterEnteringSearchCriteria(Selenium.CroatiaDirect.CountryCurrencyTest)  Time elapsed: 0.671 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria(CountryCurrencyTest.java:49)
+

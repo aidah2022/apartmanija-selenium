@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [AllAutomatedTests]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Selenium.CroatiaDirect.CountryCurrencyTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="selectCurrencyAfterEnteringSearchCriteria"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.CountryCurrencyTest -->
+      <class name="Selenium.CroatiaDirect.WishlistTest">
+        <methods>
+          <include name="removePropertyFromWishListUsingProfilePage"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.WishlistTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AllAutomatedTests] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllAutomatedTests" parallel="classes" thread-count="3">
+  <listeners>
+	<listener class-name="testcomponents.Listeners"/>
+  </listeners>
+  <test name="Test" thread-count="3">
+    <classes>
+      <class name="Selenium.CroatiaDirect.WishlistTest"/>
+      <class name="Selenium.CroatiaDirect.CountryCurrencyTest"/>
+      <class name="Selenium.CroatiaDirect.SortingSearchResultsTest"/>
+      <class name="Selenium.CroatiaDirect.AccommodationSearchTest"/>
+      <class name="Selenium.CroatiaDirect.PropertyInquiriesTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- AllAutomatedTests -->

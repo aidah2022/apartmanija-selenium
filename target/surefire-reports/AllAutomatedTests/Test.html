@@ -1,0 +1,553 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>80/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 17 20:48:47 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>493 seconds (493833 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria()'><b>selectCurrencyAfterEnteringSearchCriteria</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria(CountryCurrencyTest.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2015642001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2015642001'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria(CountryCurrencyTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage()'><b>removePropertyFromWishListUsingProfilePage</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1213557244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1213557244'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at org.testng.Assert.assertFalse(Assert.java:88)
+	at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>12</td>
+<td>Selenium.CroatiaDirect.WishlistTest@78641d23</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Fažana, arrivalMonth=srp 2023, guests=3, departureMonth=srp 2023, departureDate=13, region=Istra, accomodationType=Apartmani, arrivalDate=6}</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=fr.gif, currency=EUR, url=https://www.vacancescroatie.net/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.addPropertyToWishList()'><b>addPropertyToWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>15</td>
+<td>Selenium.CroatiaDirect.WishlistTest@78641d23</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Ft, currency=HUF}</td>
+<td></td>
+<td>12</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishList()'><b>removePropertyFromWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>18</td>
+<td>Selenium.CroatiaDirect.WishlistTest@78641d23</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=z?, currency=PLN}</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutFirstName()'><b>sendInquiryWithoutFirstName</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>19</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kn, currency=HRK}</td>
+<td></td>
+<td>3</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=ro.gif, currency=RON, url=https://www.apartamentecroatia.com/}</td>
+<td></td>
+<td>1</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutDepartureDate()'><b>sendInquiryWithoutDepartureDate</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>20</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=z?, currency=PLN}</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, niže</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=RUB, currency=RUB}</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutArrivalDate()'><b>sendInquiryWithoutArrivalDate</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>22</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=RUB, currency=RUB}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Bra?, Bra? Supetar</td>
+<td></td>
+<td>5</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=en.gif, currency=EUR, url=https://www.direct-croatia.com/}</td>
+<td></td>
+<td>1</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingUnitInquiryButton()'><b>sendInquiryUsingUnitInquiryButton</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>22</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=it.gif, currency=EUR, url=https://www.alloggiocroazia.it/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=de.gif, currency=EUR, url=https://www.direkt-kroatien.de/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutInquiryTextFieldEntry()'><b>sendInquiryWithoutInquiryTextFieldEntry</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>19</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.verifySearchBarAndAccomodationTypeDropdown()'><b>verifySearchBarAndAccomodationTypeDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>44</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryUsingForm()'><b>sendInquiryUsingForm</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>19</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=K?, currency=CZK}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=CHF, currency=CHF}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.pastDatesDisabled()'><b>pastDatesDisabled</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>3</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutNumberOfAdults()'><b>sendInquiryWithoutNumberOfAdults</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>14</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=$, currency=USD}</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutSelectingUnit()'><b>sendInquiryWithoutSelectingUnit</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutLastName()'><b>sendInquiryWithoutLastName</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>15</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Seoski turizam</td>
+<td></td>
+<td>12</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=€, currency=EUR}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=SEK}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=sl.gif, currency=EUR, url=https://www.obmorju.si/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=es.gif, currency=EUR, url=https://www.alojamientocroacia.es/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Robinzonski turizam</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=DKK}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=£, currency=GBP}</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Hvar cijeli otok, Hvar (cijeli otok)</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, Broju</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Zagreb, arrivalMonth=svi 2023, guests=12, departureMonth=svi 2023, departureDate=20, region=Zagreb i središnja Hrvatska, accomodationType=Apartmani, arrivalDate=5}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, više</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, Broju</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=nl.gif, currency=EUR, url=https://www.directkroatie.nl/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=K?, currency=CZK}</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=SEK}</td>
+<td></td>
+<td>19</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Vile</td>
+<td></td>
+<td>13</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=da.gif, currency=EUR, url=https://www.kroatiendirekte.dk/}</td>
+<td></td>
+<td>1</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=NOK}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=Ft, currency=HUF}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kn, currency=HRK}</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=DKK}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=$, currency=USD}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, Ocjeni</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=LEI, currency=RON}</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Hvar Vrbanj, arrivalMonth=lip 2023, guests=5, departureMonth=lip 2023, departureDate=11, region=Otoci, accomodationType=Robinzonski turizam, arrivalDate=3}</td>
+<td></td>
+<td>7</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=£, currency=GBP}</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Plitvi?ka jezera, arrivalMonth=pro 2023, guests=4, departureMonth=pro 2023, departureDate=4, region=Kvarner i gorje, accomodationType=Seoski turizam, arrivalDate=1}</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.WishlistTest.removeAllPropertiesFromWishList()'><b>removeAllPropertiesFromWishList</b><br>Test class: Selenium.CroatiaDirect.WishlistTest</td>
+<td></td>
+<td>23</td>
+<td>Selenium.CroatiaDirect.WishlistTest@78641d23</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.noMatchingAccomodationMessageDisplayed()'><b>noMatchingAccomodationMessageDisplayed</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, više</td>
+<td></td>
+<td>10</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromCityInputField()'><b>searchFromCityInputField</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Dubrovnik, arrivalMonth=lis 2023, guests=6, departureMonth=lis 2023, departureDate=8, region=Dubrovnik i okolica, accomodationType=Apartmani, arrivalDate=7}</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=hu.gif, currency=HUF, url=https://www.horvatorszagapartmanok.net/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchFromDestinationDropdown()'><b>searchFromDestinationDropdown</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: {city=Šibenik, arrivalMonth=kol 2023, guests=4, departureMonth=ruj 2023, departureDate=7, region=Šibenik i okolica, accomodationType=Vile, arrivalDate=30}</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=€, currency=EUR}</td>
+<td></td>
+<td>18</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.checkNumberOfResultsFound()'><b>checkNumberOfResultsFound</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Dubrovnik, Dubrovnik i okolica</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=pl.gif, currency=PLN, url=https://www.apartamentychorwacja.pl/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyBeforeSearch()'><b>selectCurrencyBeforeSearch</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=LEI, currency=RON}</td>
+<td></td>
+<td>4</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoGuestNumberEntered()'><b>searchNoGuestNumberEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>8</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.clickingDepartureDateBeforeArrival()'><b>clickingDepartureDateBeforeArrival</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>6</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.PropertyInquiriesTest.sendInquiryWithoutEmail()'><b>sendInquiryWithoutEmail</b><br>Test class: Selenium.CroatiaDirect.PropertyInquiriesTest</td>
+<td></td>
+<td>18</td>
+<td>Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=cs.gif, currency=CZK, url=https://www.chorvatskeubytovani.cz/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoDatesEntered()'><b>searchNoDatesEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=CHF, currency=CHF}</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.selectCountryOnLandingPageAndVerifyCurrency()'><b>selectCountryOnLandingPageAndVerifyCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {countryLink=ru.gif, currency=RUB, url=http://www.otdihhorvatija.ru/}</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Zagreb, Ocjeni</td>
+<td></td>
+<td>11</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchOnAccomodationTypePages()'><b>searchOnAccomodationTypePages</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest<br>Parameters: Apartmani</td>
+<td></td>
+<td>16</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.CountryCurrencyTest.convertPricesToSelectedCurrency()'><b>convertPricesToSelectedCurrency</b><br>Test class: Selenium.CroatiaDirect.CountryCurrencyTest<br>Parameters: {currencySymbol=kr, currency=NOK}</td>
+<td></td>
+<td>12</td>
+<td>Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.AccommodationSearchTest.searchNoDestinationEntered()'><b>searchNoDestinationEntered</b><br>Test class: Selenium.CroatiaDirect.AccommodationSearchTest</td>
+<td></td>
+<td>2</td>
+<td>Selenium.CroatiaDirect.AccommodationSearchTest@56928307</td></tr>
+<tr>
+<td title='Selenium.CroatiaDirect.SortingSearchResultsTest.checkResultsAreSorted()'><b>checkResultsAreSorted</b><br>Test class: Selenium.CroatiaDirect.SortingSearchResultsTest<br>Parameters: Pula, niže</td>
+<td></td>
+<td>9</td>
+<td>Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8</td></tr>
+</table><p>
+</body>
+</html>

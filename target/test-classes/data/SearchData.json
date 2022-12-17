@@ -1,0 +1,32 @@
+[
+  {
+    "region": "Istra",
+    "city": "Fažana",
+    "arrivalDate": "6",
+    "arrivalMonth": "srp 2023",
+    "departureDate": "13",
+    "departureMonth": "srp 2023",
+    "guests": "3",
+    "accomodationType": "Apartmani"
+  },
+  {
+    "region": "Šibenik i okolica",
+    "city": "Šibenik",
+    "arrivalDate": "30",
+    "arrivalMonth": "kol 2023",
+    "departureDate": "7",
+    "departureMonth": "ruj 2023",
+    "guests": "4",
+    "accomodationType": "Vile"
+  },
+  {
+    "region": "Kvarner i gorje",
+    "city": "Plitvička jezera",
+    "arrivalDate": "1",
+    "arrivalMonth": "pro 2023",
+    "departureDate": "4",
+    "departureMonth": "pro 2023",
+    "guests": "4",
+    "accomodationType": "Seoski turizam"
+  }
+]

@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="82" passed="80" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T20:48:47 CET" name="AllAutomatedTests" finished-at="2022-12-17T20:57:00 CET" duration-ms="493833">
+    <groups>
+    </groups>
+    <test started-at="2022-12-17T20:48:47 CET" name="Test" finished-at="2022-12-17T20:57:00 CET" duration-ms="493833">
+      <class name="Selenium.CroatiaDirect.SortingSearchResultsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:48:47 CET" name="launchApplication" finished-at="2022-12-17T20:48:57 CET" duration-ms="10661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:48:57 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:49:14 CET" duration-ms="16929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zagreb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niže]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:14 CET" name="tearDown" finished-at="2022-12-17T20:49:16 CET" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:16 CET" name="launchApplication" finished-at="2022-12-17T20:49:20 CET" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:20 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:49:30 CET" duration-ms="10310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zagreb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[više]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:30 CET" name="tearDown" finished-at="2022-12-17T20:49:31 CET" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:31 CET" name="launchApplication" finished-at="2022-12-17T20:49:35 CET" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:35 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:49:47 CET" duration-ms="11360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zagreb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ocjeni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:47 CET" name="tearDown" finished-at="2022-12-17T20:49:47 CET" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:47 CET" name="launchApplication" finished-at="2022-12-17T20:49:54 CET" duration-ms="6723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:49:54 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:50:03 CET" duration-ms="8739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zagreb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Broju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:03 CET" name="tearDown" finished-at="2022-12-17T20:50:03 CET" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:03 CET" name="launchApplication" finished-at="2022-12-17T20:50:07 CET" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:07 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:50:17 CET" duration-ms="9889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niže]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:17 CET" name="tearDown" finished-at="2022-12-17T20:50:18 CET" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:18 CET" name="launchApplication" finished-at="2022-12-17T20:50:23 CET" duration-ms="5494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:23 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:50:35 CET" duration-ms="11771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[više]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:35 CET" name="tearDown" finished-at="2022-12-17T20:50:36 CET" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:36 CET" name="launchApplication" finished-at="2022-12-17T20:50:40 CET" duration-ms="4567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:40 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:50:50 CET" duration-ms="9570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ocjeni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:50 CET" name="tearDown" finished-at="2022-12-17T20:50:51 CET" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:51 CET" name="launchApplication" finished-at="2022-12-17T20:50:54 CET" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkResultsAreSorted(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:50:54 CET" name="checkResultsAreSorted" data-provider="resultSortData" finished-at="2022-12-17T20:51:04 CET" duration-ms="9066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Broju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsAreSorted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.SortingSearchResultsTest@5ba88be8]" started-at="2022-12-17T20:51:04 CET" name="tearDown" finished-at="2022-12-17T20:51:04 CET" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.CroatiaDirect.SortingSearchResultsTest -->
+      <class name="Selenium.CroatiaDirect.WishlistTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:48:47 CET" name="launchApplication" finished-at="2022-12-17T20:48:58 CET" duration-ms="11856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addPropertyToWishList()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:48:58 CET" name="addPropertyToWishList" finished-at="2022-12-17T20:49:14 CET" duration-ms="15559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPropertyToWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:14 CET" name="tearDown" finished-at="2022-12-17T20:49:16 CET" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:16 CET" name="launchApplication" finished-at="2022-12-17T20:49:20 CET" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removeAllPropertiesFromWishList()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:20 CET" name="removeAllPropertiesFromWishList" finished-at="2022-12-17T20:49:43 CET" duration-ms="23361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllPropertiesFromWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:43 CET" name="tearDown" finished-at="2022-12-17T20:49:44 CET" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:44 CET" name="launchApplication" finished-at="2022-12-17T20:49:48 CET" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removePropertyFromWishList()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:49:48 CET" name="removePropertyFromWishList" finished-at="2022-12-17T20:50:07 CET" duration-ms="18447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePropertyFromWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:50:07 CET" name="tearDown" finished-at="2022-12-17T20:50:07 CET" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:50:07 CET" name="launchApplication" finished-at="2022-12-17T20:50:13 CET" duration-ms="5629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removePropertyFromWishListUsingProfilePage()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:50:13 CET" name="removePropertyFromWishListUsingProfilePage" finished-at="2022-12-17T20:50:26 CET" duration-ms="12870" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertFalse(Assert.java:78)
+at org.testng.Assert.assertFalse(Assert.java:88)
+at Selenium.CroatiaDirect.WishlistTest.removePropertyFromWishListUsingProfilePage(WishlistTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePropertyFromWishListUsingProfilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.WishlistTest@78641d23]" started-at="2022-12-17T20:50:27 CET" name="tearDown" finished-at="2022-12-17T20:50:28 CET" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.CroatiaDirect.WishlistTest -->
+      <class name="Selenium.CroatiaDirect.CountryCurrencyTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:48:47 CET" name="launchApplication" finished-at="2022-12-17T20:48:57 CET" duration-ms="10368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:48:57 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:49:16 CET" duration-ms="18539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=€, currency=EUR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:16 CET" name="tearDown" finished-at="2022-12-17T20:49:17 CET" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:17 CET" name="launchApplication" finished-at="2022-12-17T20:49:23 CET" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:23 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:49:40 CET" duration-ms="16785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=CHF, currency=CHF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:40 CET" name="tearDown" finished-at="2022-12-17T20:49:41 CET" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:41 CET" name="launchApplication" finished-at="2022-12-17T20:49:46 CET" duration-ms="4539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:46 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:49:57 CET" duration-ms="11165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=K?, currency=CZK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:57 CET" name="tearDown" finished-at="2022-12-17T20:49:58 CET" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:49:58 CET" name="launchApplication" finished-at="2022-12-17T20:50:02 CET" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:02 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:50:11 CET" duration-ms="8946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=DKK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:11 CET" name="tearDown" finished-at="2022-12-17T20:50:12 CET" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:12 CET" name="launchApplication" finished-at="2022-12-17T20:50:16 CET" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:16 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:50:27 CET" duration-ms="11404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=£, currency=GBP}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:27 CET" name="tearDown" finished-at="2022-12-17T20:50:28 CET" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:28 CET" name="launchApplication" finished-at="2022-12-17T20:50:32 CET" duration-ms="4617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:32 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:50:44 CET" duration-ms="11903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kn, currency=HRK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:44 CET" name="tearDown" finished-at="2022-12-17T20:50:45 CET" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:45 CET" name="launchApplication" finished-at="2022-12-17T20:50:50 CET" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:50:50 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:51:02 CET" duration-ms="12293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=Ft, currency=HUF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:02 CET" name="tearDown" finished-at="2022-12-17T20:51:03 CET" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:03 CET" name="launchApplication" finished-at="2022-12-17T20:51:06 CET" duration-ms="3525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:06 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:51:18 CET" duration-ms="12172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=NOK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:18 CET" name="tearDown" finished-at="2022-12-17T20:51:19 CET" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:19 CET" name="launchApplication" finished-at="2022-12-17T20:51:23 CET" duration-ms="4133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:23 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:51:38 CET" duration-ms="14497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=z?, currency=PLN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:38 CET" name="tearDown" finished-at="2022-12-17T20:51:39 CET" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:39 CET" name="launchApplication" finished-at="2022-12-17T20:51:43 CET" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:51:43 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:52:00 CET" duration-ms="16939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=LEI, currency=RON}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:00 CET" name="tearDown" finished-at="2022-12-17T20:52:02 CET" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:02 CET" name="launchApplication" finished-at="2022-12-17T20:52:06 CET" duration-ms="4682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:06 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:52:26 CET" duration-ms="19150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=SEK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:26 CET" name="tearDown" finished-at="2022-12-17T20:52:26 CET" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:26 CET" name="launchApplication" finished-at="2022-12-17T20:52:30 CET" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:30 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:52:44 CET" duration-ms="13970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=RUB, currency=RUB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:44 CET" name="tearDown" finished-at="2022-12-17T20:52:45 CET" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:45 CET" name="launchApplication" finished-at="2022-12-17T20:52:50 CET" duration-ms="5222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="convertPricesToSelectedCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:52:50 CET" name="convertPricesToSelectedCurrency" data-provider="getCurrencyData" finished-at="2022-12-17T20:53:01 CET" duration-ms="11437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=$, currency=USD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPricesToSelectedCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:01 CET" name="tearDown" finished-at="2022-12-17T20:53:02 CET" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:02 CET" name="launchApplication" finished-at="2022-12-17T20:53:06 CET" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:06 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:08 CET" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=en.gif, currency=EUR, url=https://www.direct-croatia.com/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:08 CET" name="tearDown" finished-at="2022-12-17T20:53:10 CET" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:10 CET" name="launchApplication" finished-at="2022-12-17T20:53:14 CET" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:14 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:16 CET" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=it.gif, currency=EUR, url=https://www.alloggiocroazia.it/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:16 CET" name="tearDown" finished-at="2022-12-17T20:53:17 CET" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:17 CET" name="launchApplication" finished-at="2022-12-17T20:53:22 CET" duration-ms="4857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:22 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:24 CET" duration-ms="2604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=de.gif, currency=EUR, url=https://www.direkt-kroatien.de/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:24 CET" name="tearDown" finished-at="2022-12-17T20:53:25 CET" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:25 CET" name="launchApplication" finished-at="2022-12-17T20:53:29 CET" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:29 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:32 CET" duration-ms="2586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=cs.gif, currency=CZK, url=https://www.chorvatskeubytovani.cz/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:32 CET" name="tearDown" finished-at="2022-12-17T20:53:32 CET" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:32 CET" name="launchApplication" finished-at="2022-12-17T20:53:36 CET" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:36 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:39 CET" duration-ms="2242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=pl.gif, currency=PLN, url=https://www.apartamentychorwacja.pl/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:39 CET" name="tearDown" finished-at="2022-12-17T20:53:40 CET" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:40 CET" name="launchApplication" finished-at="2022-12-17T20:53:44 CET" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:44 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:46 CET" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=sl.gif, currency=EUR, url=https://www.obmorju.si/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:46 CET" name="tearDown" finished-at="2022-12-17T20:53:47 CET" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:47 CET" name="launchApplication" finished-at="2022-12-17T20:53:53 CET" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:53 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:53:55 CET" duration-ms="2145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=hu.gif, currency=HUF, url=https://www.horvatorszagapartmanok.net/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:55 CET" name="tearDown" finished-at="2022-12-17T20:53:56 CET" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:53:56 CET" name="launchApplication" finished-at="2022-12-17T20:54:01 CET" duration-ms="4818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:01 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:03 CET" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=fr.gif, currency=EUR, url=https://www.vacancescroatie.net/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:03 CET" name="tearDown" finished-at="2022-12-17T20:54:04 CET" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:04 CET" name="launchApplication" finished-at="2022-12-17T20:54:08 CET" duration-ms="3898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:08 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:10 CET" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=es.gif, currency=EUR, url=https://www.alojamientocroacia.es/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:10 CET" name="tearDown" finished-at="2022-12-17T20:54:10 CET" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:10 CET" name="launchApplication" finished-at="2022-12-17T20:54:14 CET" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:14 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:16 CET" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=ro.gif, currency=RON, url=https://www.apartamentecroatia.com/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:16 CET" name="tearDown" finished-at="2022-12-17T20:54:17 CET" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:17 CET" name="launchApplication" finished-at="2022-12-17T20:54:23 CET" duration-ms="6642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:23 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:26 CET" duration-ms="2391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=nl.gif, currency=EUR, url=https://www.directkroatie.nl/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:26 CET" name="tearDown" finished-at="2022-12-17T20:54:27 CET" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:27 CET" name="launchApplication" finished-at="2022-12-17T20:54:31 CET" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:31 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:33 CET" duration-ms="1995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=da.gif, currency=EUR, url=https://www.kroatiendirekte.dk/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:33 CET" name="tearDown" finished-at="2022-12-17T20:54:34 CET" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:34 CET" name="launchApplication" finished-at="2022-12-17T20:54:38 CET" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountryOnLandingPageAndVerifyCurrency(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:38 CET" name="selectCountryOnLandingPageAndVerifyCurrency" data-provider="getCountryURL" finished-at="2022-12-17T20:54:40 CET" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryLink=ru.gif, currency=RUB, url=http://www.otdihhorvatija.ru/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryOnLandingPageAndVerifyCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:40 CET" name="tearDown" finished-at="2022-12-17T20:54:41 CET" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:41 CET" name="launchApplication" finished-at="2022-12-17T20:54:45 CET" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyAfterEnteringSearchCriteria()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:54:45 CET" name="selectCurrencyAfterEnteringSearchCriteria" finished-at="2022-12-17T20:54:58 CET" duration-ms="13373" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at Selenium.CroatiaDirect.CountryCurrencyTest.selectCurrencyAfterEnteringSearchCriteria(CountryCurrencyTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyAfterEnteringSearchCriteria -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:00 CET" name="tearDown" finished-at="2022-12-17T20:55:01 CET" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:01 CET" name="launchApplication" finished-at="2022-12-17T20:55:05 CET" duration-ms="4065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:05 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:09 CET" duration-ms="4018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=€, currency=EUR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:09 CET" name="tearDown" finished-at="2022-12-17T20:55:10 CET" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:10 CET" name="launchApplication" finished-at="2022-12-17T20:55:13 CET" duration-ms="2943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:13 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:18 CET" duration-ms="4855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=CHF, currency=CHF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:18 CET" name="tearDown" finished-at="2022-12-17T20:55:18 CET" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:18 CET" name="launchApplication" finished-at="2022-12-17T20:55:23 CET" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:23 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:27 CET" duration-ms="4646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=K?, currency=CZK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:27 CET" name="tearDown" finished-at="2022-12-17T20:55:28 CET" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:28 CET" name="launchApplication" finished-at="2022-12-17T20:55:31 CET" duration-ms="3510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:31 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:36 CET" duration-ms="4934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=DKK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:36 CET" name="tearDown" finished-at="2022-12-17T20:55:37 CET" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:37 CET" name="launchApplication" finished-at="2022-12-17T20:55:44 CET" duration-ms="6763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:44 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:50 CET" duration-ms="6647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=£, currency=GBP}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:50 CET" name="tearDown" finished-at="2022-12-17T20:55:51 CET" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:51 CET" name="launchApplication" finished-at="2022-12-17T20:55:54 CET" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:54 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:55:58 CET" duration-ms="3962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kn, currency=HRK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:58 CET" name="tearDown" finished-at="2022-12-17T20:55:59 CET" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:55:59 CET" name="launchApplication" finished-at="2022-12-17T20:56:03 CET" duration-ms="4089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:03 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:07 CET" duration-ms="4006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=Ft, currency=HUF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:07 CET" name="tearDown" finished-at="2022-12-17T20:56:08 CET" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:08 CET" name="launchApplication" finished-at="2022-12-17T20:56:12 CET" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:12 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:16 CET" duration-ms="4399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=NOK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:16 CET" name="tearDown" finished-at="2022-12-17T20:56:17 CET" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:17 CET" name="launchApplication" finished-at="2022-12-17T20:56:20 CET" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:20 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:26 CET" duration-ms="6342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=z?, currency=PLN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:26 CET" name="tearDown" finished-at="2022-12-17T20:56:27 CET" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:27 CET" name="launchApplication" finished-at="2022-12-17T20:56:30 CET" duration-ms="3136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:30 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:34 CET" duration-ms="4108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=LEI, currency=RON}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:34 CET" name="tearDown" finished-at="2022-12-17T20:56:35 CET" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:35 CET" name="launchApplication" finished-at="2022-12-17T20:56:38 CET" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:38 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:42 CET" duration-ms="4063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=kr, currency=SEK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:42 CET" name="tearDown" finished-at="2022-12-17T20:56:43 CET" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:43 CET" name="launchApplication" finished-at="2022-12-17T20:56:47 CET" duration-ms="4643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:47 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:56:52 CET" duration-ms="4500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=RUB, currency=RUB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:52 CET" name="tearDown" finished-at="2022-12-17T20:56:52 CET" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:52 CET" name="launchApplication" finished-at="2022-12-17T20:56:55 CET" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCurrencyBeforeSearch(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:56:55 CET" name="selectCurrencyBeforeSearch" data-provider="getCurrencyData" finished-at="2022-12-17T20:57:00 CET" duration-ms="4266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currencySymbol=$, currency=USD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrencyBeforeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.CountryCurrencyTest@1e461e41]" started-at="2022-12-17T20:57:00 CET" name="tearDown" finished-at="2022-12-17T20:57:00 CET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.CroatiaDirect.CountryCurrencyTest -->
+      <class name="Selenium.CroatiaDirect.PropertyInquiriesTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:04 CET" name="launchApplication" finished-at="2022-12-17T20:51:10 CET" duration-ms="5272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryUsingForm()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:10 CET" name="sendInquiryUsingForm" finished-at="2022-12-17T20:51:30 CET" duration-ms="19844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryUsingForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:30 CET" name="tearDown" finished-at="2022-12-17T20:51:30 CET" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:30 CET" name="launchApplication" finished-at="2022-12-17T20:51:35 CET" duration-ms="4699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryUsingUnitInquiryButton()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:35 CET" name="sendInquiryUsingUnitInquiryButton" finished-at="2022-12-17T20:51:58 CET" duration-ms="22545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryUsingUnitInquiryButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:51:58 CET" name="tearDown" finished-at="2022-12-17T20:52:00 CET" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:00 CET" name="launchApplication" finished-at="2022-12-17T20:52:04 CET" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutArrivalDate()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:04 CET" name="sendInquiryWithoutArrivalDate" finished-at="2022-12-17T20:52:27 CET" duration-ms="22082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutArrivalDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:27 CET" name="tearDown" finished-at="2022-12-17T20:52:28 CET" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:28 CET" name="launchApplication" finished-at="2022-12-17T20:52:33 CET" duration-ms="4818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutDepartureDate()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:33 CET" name="sendInquiryWithoutDepartureDate" finished-at="2022-12-17T20:52:53 CET" duration-ms="20226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutDepartureDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:53 CET" name="tearDown" finished-at="2022-12-17T20:52:54 CET" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:54 CET" name="launchApplication" finished-at="2022-12-17T20:52:58 CET" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutEmail()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:52:58 CET" name="sendInquiryWithoutEmail" finished-at="2022-12-17T20:53:16 CET" duration-ms="18293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:16 CET" name="tearDown" finished-at="2022-12-17T20:53:17 CET" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:17 CET" name="launchApplication" finished-at="2022-12-17T20:53:22 CET" duration-ms="5114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutFirstName()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:22 CET" name="sendInquiryWithoutFirstName" finished-at="2022-12-17T20:53:41 CET" duration-ms="19667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:41 CET" name="tearDown" finished-at="2022-12-17T20:53:42 CET" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:42 CET" name="launchApplication" finished-at="2022-12-17T20:53:48 CET" duration-ms="5443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutInquiryTextFieldEntry()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:53:48 CET" name="sendInquiryWithoutInquiryTextFieldEntry" finished-at="2022-12-17T20:54:08 CET" duration-ms="19968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutInquiryTextFieldEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:08 CET" name="tearDown" finished-at="2022-12-17T20:54:08 CET" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:08 CET" name="launchApplication" finished-at="2022-12-17T20:54:12 CET" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutLastName()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:12 CET" name="sendInquiryWithoutLastName" finished-at="2022-12-17T20:54:27 CET" duration-ms="15076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:27 CET" name="tearDown" finished-at="2022-12-17T20:54:28 CET" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:28 CET" name="launchApplication" finished-at="2022-12-17T20:54:33 CET" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutNumberOfAdults()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:33 CET" name="sendInquiryWithoutNumberOfAdults" finished-at="2022-12-17T20:54:48 CET" duration-ms="14871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutNumberOfAdults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:48 CET" name="tearDown" finished-at="2022-12-17T20:54:48 CET" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:48 CET" name="launchApplication" finished-at="2022-12-17T20:54:53 CET" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="sendInquiryWithoutSelectingUnit()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:54:53 CET" name="sendInquiryWithoutSelectingUnit" finished-at="2022-12-17T20:55:04 CET" duration-ms="11220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInquiryWithoutSelectingUnit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.PropertyInquiriesTest@3899782c]" started-at="2022-12-17T20:55:04 CET" name="tearDown" finished-at="2022-12-17T20:55:05 CET" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.CroatiaDirect.PropertyInquiriesTest -->
+      <class name="Selenium.CroatiaDirect.AccommodationSearchTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:28 CET" name="launchApplication" finished-at="2022-12-17T20:50:34 CET" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkNumberOfResultsFound(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:34 CET" name="checkNumberOfResultsFound" data-provider="destinationNumberOfResults" finished-at="2022-12-17T20:50:40 CET" duration-ms="6798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hvar cijeli otok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hvar (cijeli otok)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfResultsFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:40 CET" name="tearDown" finished-at="2022-12-17T20:50:41 CET" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:41 CET" name="launchApplication" finished-at="2022-12-17T20:50:45 CET" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkNumberOfResultsFound(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:45 CET" name="checkNumberOfResultsFound" data-provider="destinationNumberOfResults" finished-at="2022-12-17T20:50:54 CET" duration-ms="8444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dubrovnik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dubrovnik i okolica]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfResultsFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:54 CET" name="tearDown" finished-at="2022-12-17T20:50:55 CET" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:55 CET" name="launchApplication" finished-at="2022-12-17T20:50:59 CET" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkNumberOfResultsFound(java.lang.String,java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:50:59 CET" name="checkNumberOfResultsFound" data-provider="destinationNumberOfResults" finished-at="2022-12-17T20:51:04 CET" duration-ms="5573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bra?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bra? Supetar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfResultsFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:04 CET" name="tearDown" finished-at="2022-12-17T20:51:05 CET" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:05 CET" name="launchApplication" finished-at="2022-12-17T20:51:10 CET" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="clickingDepartureDateBeforeArrival()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:10 CET" name="clickingDepartureDateBeforeArrival" finished-at="2022-12-17T20:51:16 CET" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingDepartureDateBeforeArrival -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:16 CET" name="tearDown" finished-at="2022-12-17T20:51:18 CET" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:18 CET" name="launchApplication" finished-at="2022-12-17T20:51:24 CET" duration-ms="6201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="noMatchingAccomodationMessageDisplayed()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:24 CET" name="noMatchingAccomodationMessageDisplayed" finished-at="2022-12-17T20:51:32 CET" duration-ms="8249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noMatchingAccomodationMessageDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:32 CET" name="tearDown" finished-at="2022-12-17T20:51:33 CET" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:33 CET" name="launchApplication" finished-at="2022-12-17T20:51:40 CET" duration-ms="6517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pastDatesDisabled()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:40 CET" name="pastDatesDisabled" finished-at="2022-12-17T20:51:44 CET" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pastDatesDisabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:44 CET" name="tearDown" finished-at="2022-12-17T20:51:45 CET" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:46 CET" name="launchApplication" finished-at="2022-12-17T20:51:50 CET" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromCityInputField(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:50 CET" name="searchFromCityInputField" data-provider="getDataCityInputField" finished-at="2022-12-17T20:51:59 CET" duration-ms="8865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Zagreb, arrivalMonth=svi 2023, guests=12, departureMonth=svi 2023, departureDate=20, region=Zagreb i središnja Hrvatska, accomodationType=Apartmani, arrivalDate=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromCityInputField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:51:59 CET" name="tearDown" finished-at="2022-12-17T20:52:00 CET" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:00 CET" name="launchApplication" finished-at="2022-12-17T20:52:05 CET" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromCityInputField(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:05 CET" name="searchFromCityInputField" data-provider="getDataCityInputField" finished-at="2022-12-17T20:52:12 CET" duration-ms="7312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Hvar Vrbanj, arrivalMonth=lip 2023, guests=5, departureMonth=lip 2023, departureDate=11, region=Otoci, accomodationType=Robinzonski turizam, arrivalDate=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromCityInputField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:12 CET" name="tearDown" finished-at="2022-12-17T20:52:14 CET" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:14 CET" name="launchApplication" finished-at="2022-12-17T20:52:18 CET" duration-ms="4260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromCityInputField(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:18 CET" name="searchFromCityInputField" data-provider="getDataCityInputField" finished-at="2022-12-17T20:52:27 CET" duration-ms="9041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Dubrovnik, arrivalMonth=lis 2023, guests=6, departureMonth=lis 2023, departureDate=8, region=Dubrovnik i okolica, accomodationType=Apartmani, arrivalDate=7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromCityInputField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:27 CET" name="tearDown" finished-at="2022-12-17T20:52:28 CET" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:28 CET" name="launchApplication" finished-at="2022-12-17T20:52:32 CET" duration-ms="4491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromDestinationDropdown(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:32 CET" name="searchFromDestinationDropdown" data-provider="getDataDestDropdown" finished-at="2022-12-17T20:52:42 CET" duration-ms="9415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Fažana, arrivalMonth=srp 2023, guests=3, departureMonth=srp 2023, departureDate=13, region=Istra, accomodationType=Apartmani, arrivalDate=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromDestinationDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:42 CET" name="tearDown" finished-at="2022-12-17T20:52:43 CET" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:43 CET" name="launchApplication" finished-at="2022-12-17T20:52:47 CET" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromDestinationDropdown(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:47 CET" name="searchFromDestinationDropdown" data-provider="getDataDestDropdown" finished-at="2022-12-17T20:52:55 CET" duration-ms="8210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Šibenik, arrivalMonth=kol 2023, guests=4, departureMonth=ruj 2023, departureDate=7, region=Šibenik i okolica, accomodationType=Vile, arrivalDate=30}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromDestinationDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:55 CET" name="tearDown" finished-at="2022-12-17T20:52:56 CET" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:52:56 CET" name="launchApplication" finished-at="2022-12-17T20:53:00 CET" duration-ms="4299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchFromDestinationDropdown(java.util.HashMap)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:00 CET" name="searchFromDestinationDropdown" data-provider="getDataDestDropdown" finished-at="2022-12-17T20:53:10 CET" duration-ms="9854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{city=Plitvi?ka jezera, arrivalMonth=pro 2023, guests=4, departureMonth=pro 2023, departureDate=4, region=Kvarner i gorje, accomodationType=Seoski turizam, arrivalDate=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromDestinationDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:10 CET" name="tearDown" finished-at="2022-12-17T20:53:11 CET" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:11 CET" name="launchApplication" finished-at="2022-12-17T20:53:15 CET" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchNoDatesEntered()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:15 CET" name="searchNoDatesEntered" finished-at="2022-12-17T20:53:18 CET" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNoDatesEntered -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:18 CET" name="tearDown" finished-at="2022-12-17T20:53:19 CET" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:19 CET" name="launchApplication" finished-at="2022-12-17T20:53:23 CET" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchNoDestinationEntered()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:23 CET" name="searchNoDestinationEntered" finished-at="2022-12-17T20:53:25 CET" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNoDestinationEntered -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:25 CET" name="tearDown" finished-at="2022-12-17T20:53:26 CET" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:26 CET" name="launchApplication" finished-at="2022-12-17T20:53:31 CET" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchNoGuestNumberEntered()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:31 CET" name="searchNoGuestNumberEntered" finished-at="2022-12-17T20:53:39 CET" duration-ms="8014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNoGuestNumberEntered -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:39 CET" name="tearDown" finished-at="2022-12-17T20:53:40 CET" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:40 CET" name="launchApplication" finished-at="2022-12-17T20:53:44 CET" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchOnAccomodationTypePages(java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:53:44 CET" name="searchOnAccomodationTypePages" data-provider="getAccomodationTypeData" finished-at="2022-12-17T20:54:00 CET" duration-ms="16452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apartmani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnAccomodationTypePages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:00 CET" name="tearDown" finished-at="2022-12-17T20:54:01 CET" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:01 CET" name="launchApplication" finished-at="2022-12-17T20:54:05 CET" duration-ms="3992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchOnAccomodationTypePages(java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:05 CET" name="searchOnAccomodationTypePages" data-provider="getAccomodationTypeData" finished-at="2022-12-17T20:54:18 CET" duration-ms="13292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnAccomodationTypePages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:18 CET" name="tearDown" finished-at="2022-12-17T20:54:19 CET" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:19 CET" name="launchApplication" finished-at="2022-12-17T20:54:24 CET" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchOnAccomodationTypePages(java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:24 CET" name="searchOnAccomodationTypePages" data-provider="getAccomodationTypeData" finished-at="2022-12-17T20:54:37 CET" duration-ms="13157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robinzonski turizam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnAccomodationTypePages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:37 CET" name="tearDown" finished-at="2022-12-17T20:54:38 CET" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:38 CET" name="launchApplication" finished-at="2022-12-17T20:54:43 CET" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchOnAccomodationTypePages(java.lang.String)[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:43 CET" name="searchOnAccomodationTypePages" data-provider="getAccomodationTypeData" finished-at="2022-12-17T20:54:56 CET" duration-ms="12239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seoski turizam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnAccomodationTypePages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:56 CET" name="tearDown" finished-at="2022-12-17T20:54:56 CET" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:54:56 CET" name="launchApplication" finished-at="2022-12-17T20:55:00 CET" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySearchBarAndAccomodationTypeDropdown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:55:00 CET" name="verifySearchBarAndAccomodationTypeDropdown" finished-at="2022-12-17T20:55:44 CET" duration-ms="44151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBarAndAccomodationTypeDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.CroatiaDirect.AccommodationSearchTest@56928307]" started-at="2022-12-17T20:55:44 CET" name="tearDown" finished-at="2022-12-17T20:55:44 CET" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.CroatiaDirect.AccommodationSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- AllAutomatedTests -->
+</testng-results>

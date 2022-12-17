@@ -1,0 +1,58 @@
+[
+  {
+    "currency": "EUR",
+    "currencySymbol": "€"
+  },
+  {
+    "currency": "CHF",
+    "currencySymbol": "CHF"
+  },
+  {
+    "currency": "CZK",
+    "currencySymbol": "Kč"
+  },
+  {
+    "currency": "DKK",
+    "currencySymbol": "kr"
+  },
+  {
+    "currency": "GBP",
+    "currencySymbol": "£"
+  },
+  {
+    "currency": "HRK",
+    "currencySymbol": "kn"
+  },
+  {
+    "currency": "HUF",
+    "currencySymbol": "Ft"
+  },
+  {
+    "currency": "NOK",
+    "currencySymbol": "kr"
+  },
+  {
+    "currency": "PLN",
+    "currencySymbol": "zł"
+  },
+  {
+    "currency": "RON",
+    "currencySymbol": "LEI"
+  },
+  {
+    "currency": "SEK",
+    "currencySymbol": "kr"
+  },
+  {
+    "currency": "RUB",
+    "currencySymbol": "RUB"
+  },
+  {
+    "currency": "USD",
+    "currencySymbol": "$"
+  }
+]
+    
+     
+    
+    

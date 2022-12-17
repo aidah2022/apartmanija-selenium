@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [AllAutomatedTests]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Selenium.CroatiaDirect.AccommodationSearchTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="clickingDepartureDateBeforeArrival"/>
+          <include name="searchOnAccomodationTypePages" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.AccommodationSearchTest -->
+      <class name="Selenium.CroatiaDirect.PropertyInquiriesTest">
+        <methods>
+          <include name="sendInquiryUsingUnitInquiryButton"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="sendInquiryWithoutFirstName"/>
+          <include name="sendInquiryWithoutInquiryTextFieldEntry"/>
+          <include name="sendInquiryWithoutArrivalDate"/>
+          <include name="sendInquiryUsingForm"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.PropertyInquiriesTest -->
+      <class name="Selenium.CroatiaDirect.CountryCurrencyTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="convertPricesToSelectedCurrency" invocation-numbers="5 10"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.CountryCurrencyTest -->
+      <class name="Selenium.CroatiaDirect.WishlistTest">
+        <methods>
+          <include name="removePropertyFromWishListUsingProfilePage"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="removeAllPropertiesFromWishList"/>
+          <include name="addPropertyToWishList"/>
+        </methods>
+      </class> <!-- Selenium.CroatiaDirect.WishlistTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AllAutomatedTests] -->

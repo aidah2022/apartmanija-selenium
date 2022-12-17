@@ -1,0 +1,32 @@
+[
+  {
+    "region": "Zagreb i središnja Hrvatska",
+    "city": "Zagreb",
+    "arrivalDate": "5",
+    "arrivalMonth": "svi 2023",
+    "departureDate": "20",
+    "departureMonth": "svi 2023",
+    "guests": "12",
+    "accomodationType": "Apartmani"
+  },
+  {
+    "region": "Otoci",
+    "city": "Hvar Vrbanj",
+    "arrivalDate": "3",
+    "arrivalMonth": "lip 2023",
+    "departureDate": "11",
+    "departureMonth": "lip 2023",
+    "guests": "5",
+    "accomodationType": "Robinzonski turizam"
+  },
+  {
+    "region": "Dubrovnik i okolica",
+    "city": "Dubrovnik",
+    "arrivalDate": "7",
+    "arrivalMonth": "lis 2023",
+    "departureDate": "8",
+    "departureMonth": "lis 2023",
+    "guests": "6",
+    "accomodationType": "Apartmani"
+  }
+]
